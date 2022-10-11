@@ -37,6 +37,12 @@ function App() {
           }
         ]
       },
+      {
+        path: '*', element: <div className='text-center mt-5'><h1> <span>Sorry!!</span> This route is not Found
+        <br />
+        <h2><span className='fw-bold text-secondary mt-3'>404</span></h2>
+        </h1></div>
+      }
     
   ]);
 
