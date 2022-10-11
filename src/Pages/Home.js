@@ -14,9 +14,9 @@ const Home = () => {
 
         <div>
         <div className='image-container'>
-             <img src={quiz2} alt=""></img>
+             <img className='img-set' src={quiz2} alt=""></img>
          </div>
-         
+
            <div className='display'>
            {
                 datas.map(data => <Show

@@ -5,3 +5,12 @@
     padding: 10px;
     color: white;
 }
+
+
+
+@media screen and (max-width: 992px){
+
+    .button{
+       
+    }
+}

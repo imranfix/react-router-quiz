@@ -11,3 +11,19 @@
     margin-bottom: 50px;
 
 }
+
+
+
+@media screen and (max-width: 992px){
+        .img-set{
+            height: 50px;
+        }
+
+        .display{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            column-gap:20px;
+            
+        }
+}   

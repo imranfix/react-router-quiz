@@ -7,15 +7,14 @@ const TopNav = () => {
         <div className='d-flex justify-content-around bg-secondary'>
 
             <div>
-                <h3>Development Path</h3>
+                <h3 className='path'>Development Path</h3>
             </div>
 
-            <div className='fs-4 text-decoration-none'>  
+            <div className='fs-4'>  
             <Link to='/'></Link>
-            <Link to='/home'>Home</Link>
-            {/* <Link to='/quiz'>Quiz</Link> */}
-            <Link to='/chart'>Chart</Link>
-            <Link to='/blog'>Blog</Link>
+            <Link className='responsive' to='/home'>Home</Link>
+            <Link className='responsive' to='/chart'>Chart</Link>
+            <Link className='responsive' to='/blog'>Blog</Link>
             </div>
         </div>
     );

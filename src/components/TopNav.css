@@ -3,3 +3,27 @@
     color: white;
     margin: 20px;
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .responsive{
+        font-size: 20px;
+        margin-right: 20px;
+        margin-bottom: 70px;
+    }
+
+    .fs-4{
+        margin-top: -10px;
+    }
+
+    .path{
+        font-size: 15px;
+        margin-left: 30px;
+    }
+}
