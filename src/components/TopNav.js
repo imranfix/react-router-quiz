@@ -13,7 +13,7 @@ const TopNav = () => {
             <div className='fs-4 text-decoration-none'>  
             <Link to='/'></Link>
             <Link to='/home'>Home</Link>
-            <Link to='/quiz'>Quiz</Link>
+            {/* <Link to='/quiz'>Quiz</Link> */}
             <Link to='/chart'>Chart</Link>
             <Link to='/blog'>Blog</Link>
             </div>

@@ -5,7 +5,7 @@ import Home from './Pages/Home';
 import Chart from './Pages/Chart';
 import Blog from './Pages/Blog';
 import Main from './Layout/Main';
-import Quiz from './Pages/Quiz';
+// import Quiz from './Pages/Quiz';
 
 
 function App() {
@@ -14,15 +14,17 @@ function App() {
         path: '/',
         element: <Main></Main>,
         children: [
+
           {
             path: '/home',
+            loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
             element: <Home></Home>
           },
 
-          {
-            path: '/quiz',
-            element: <Quiz></Quiz>
-          },
+          // {
+          //   path: '/quiz',
+          //   element: <Quiz></Quiz>
+          // },
 
           {
             path: '/chart',
