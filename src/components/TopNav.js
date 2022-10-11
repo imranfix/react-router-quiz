@@ -4,7 +4,7 @@ import './TopNav.css';
 
 const TopNav = () => {
     return (
-        <div className='d-flex justify-content-around bg-secondary h-25'>
+        <div className='d-flex justify-content-around bg-secondary h-auto'>
 
             <div>
                 <h3 className='path'>Development Path</h3>

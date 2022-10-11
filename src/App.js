@@ -5,7 +5,8 @@ import Home from './Pages/Home';
 import Chart from './Pages/Chart';
 import Blog from './Pages/Blog';
 import Main from './Layout/Main';
-// import Quiz from './Pages/Quiz';
+import CodeQuizs from './Pages/CodeQuizs';
+
 
 
 function App() {
@@ -17,14 +18,17 @@ function App() {
 
           {
             path: '/home',
-            loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
+            loader:  () =>  fetch('https://openapi.programming-hero.com/api/quiz'),
             element: <Home></Home>
           },
 
-          // {
-          //   path: '/quiz',
-          //   element: <Quiz></Quiz>
-          // },
+          {
+            path: '/home/:id',
+            loader: async({params}) =>{
+              return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
+            },
+            element: <CodeQuizs></CodeQuizs>
+          },
 
           {
             path: '/chart',

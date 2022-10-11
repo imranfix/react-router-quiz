@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import './Chart.css';
 
 
 const Chart = () => {
@@ -25,12 +26,15 @@ const Chart = () => {
     }, [])
 
     return (
-        <BarChart width={500} height={400} data={bars}>
+        <div> 
+            <div className='text-center mt-3 fs-2 fw-semibold'> Programming Language Bar-Chart</div>
+         <BarChart width={700} height={520} data={bars}>
              <Bar dataKey="total" fill="#87CEEB" />
              <XAxis dataKey="name"></XAxis>
              <YAxis></YAxis>
              <Tooltip></Tooltip>
         </BarChart>
+        </div>
     );
 };
 
