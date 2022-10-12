@@ -23,10 +23,8 @@ function App() {
           },
 
           {
-            path: '/home/:homeId',
-            loader: async({params}) =>{
-              return fetch(`https://openapi.programming-hero.com/api/quiz/${params.homeId}`)
-            },
+            path: '/home/:id',
+            loader: ({params}) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`),
             element: <CodeQuizs></CodeQuizs>
           },
 

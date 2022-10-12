@@ -1,0 +1,13 @@
+.border{
+    margin-left: 500px;
+    height: 300px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.radio{
+    margin-right: 180px;
+}

@@ -5,7 +5,9 @@ import Show from './Show';
 
 const Home = () => {
     const datas = useLoaderData().data;
-    console.log(datas);
+    // console.log(datas);
+
+ 
 
     return (
     
