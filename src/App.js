@@ -23,9 +23,9 @@ function App() {
           },
 
           {
-            path: '/home/:id',
+            path: '/home/:homeId',
             loader: async({params}) =>{
-              return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
+              return fetch(`https://openapi.programming-hero.com/api/quiz/${params.homeId}`)
             },
             element: <CodeQuizs></CodeQuizs>
           },
