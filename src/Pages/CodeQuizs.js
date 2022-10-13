@@ -17,7 +17,7 @@ const CodeQuizs = () => {
             <h5>Quiz Part: {id} </h5>
 
             {
-                datas.map(data => <Quizs
+                datas.map((data) => <Quizs
                 data={data}
                 ></Quizs>)
             }

@@ -16,3 +16,15 @@
 .radio{
     margin-right: 10px;
 }
+
+
+
+@media screen and (max-width: 992px){
+
+    .card{
+        margin-right: 700px;
+        height: 500px;
+        width: 150px;
+    }
+       
+}
