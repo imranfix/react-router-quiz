@@ -19,6 +19,7 @@ const Home = () => {
            <div className='display'>
            {
                 datas.map(data => <Show
+                // key={data.id}
                 data={data}
                 ></Show>)
               }

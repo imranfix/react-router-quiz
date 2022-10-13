@@ -1,10 +1,11 @@
 import React from 'react';
 
-const QuizOptions = (quizOption) => {
+const AnswerOption = () => {
     return (
         <div>
+            
         </div>
     );
 };
 
-export default QuizOptions;
+export default AnswerOption;

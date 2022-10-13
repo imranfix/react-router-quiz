@@ -11,7 +11,7 @@ const TopNav = () => {
             </div>
 
             <div className='fs-4'>  
-            <Link to='/'></Link>
+            {/* <Link to='/'></Link> */}
             <Link className='responsive' to='/home'>Home</Link>
             <Link className='responsive' to='/chart'>Chart</Link>
             <Link className='responsive' to='/blog'>Blog</Link>

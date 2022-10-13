@@ -1,13 +1,18 @@
 .border{
-    margin-left: 500px;
-    height: 300px;
+    margin-left: 300px;
+    height: 400px;
 }
 
-.flex{
+.option{
     display: flex;
     flex-direction: column;
+    text-align: start;
+   
+}
+.form-check-input{
+    margin: 10px;
 }
 
 .radio{
-    margin-right: 180px;
+    margin-right: 10px;
 }
