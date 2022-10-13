@@ -22,14 +22,6 @@ const CodeQuizs = () => {
                 ></Quizs>)
             }
 
-            {/* {
-                datas.map(data => data)
-            } */}
-
-            {
-            //  datas.map(data =><p className='text-success'>Options:{data.options}</p>)
-            }
-
         </div>
     );
 };

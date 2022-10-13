@@ -26,5 +26,8 @@
         height: 500px;
         width: 150px;
     }
-       
+    .card-body {
+        border-left: 500px;
+        
+    }
 }

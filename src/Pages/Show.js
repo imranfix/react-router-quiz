@@ -12,7 +12,7 @@ function Show ({data}) {
          <Card style={{ width: '18rem' }}>
       <Card.Img className='img-top' variant="top" src={logo} />
       <Card.Body>
-       <div className='d-flex justify-content-around'>
+       <div className='upper d-flex justify-content-around'>
        <Card.Title>{name}</Card.Title>
 
        <Link to={`/home/${id}`}>

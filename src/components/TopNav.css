@@ -3,9 +3,10 @@
     color: white;
     margin: 20px;
 }
-
-
-
+.img-icon{
+    width: auto;
+    height: 70px;
+}
 
 
 
@@ -23,5 +24,20 @@
     .path{
         font-size: 15px;
         margin-left: 30px;
+        display: flex;
+        flex-direction: column;
     }
+    .path-second{
+        margin-left: 25px;
+    }
+    .fs-4{
+        margin-top: 6px;
+    }
+
+    .img-icon{
+        width: 30px;
+        height: 30px;
+        margin-left: 11px;
+    }
+
 }

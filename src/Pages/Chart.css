@@ -5,3 +5,11 @@
 .recharts-wrapper{
     margin-left: 655px;
 }
+
+
+
+@media screen and (max-width: 992px){
+    .recharts-wrapper{
+        margin-right: 500px;
+    }
+}
