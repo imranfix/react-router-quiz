@@ -5,7 +5,8 @@ import { faEye } from '@fortawesome/free-solid-svg-icons';
 import toast from 'react-hot-toast';
 
 
-const Quizs = ({data}) => {
+const Quizs = ({data, index}) => {
+  // console.log(index + 1)
     const {question, options, correctAnswer } = data;
      const quizOptions = options;
 
@@ -41,7 +42,7 @@ const Quizs = ({data}) => {
       <Card style={{ width: '28rem', marginBottom: '2rem', marginLeft: '28rem' }}>
           <div>
           <Card.Body >
-            <Card.Subtitle className="mb-2 text-muted text-start d-flex justify-content-center gap-2"><p><span className='fs-6'>Questions:</span>   {question}</p>
+            <Card.Subtitle className="mb-2 text-muted text-start d-flex justify-content-center gap-2"><p><span className='fs-5 text-info'>Questions- {index + 1} :</span> {question}</p>
               <FontAwesomeIcon onClick={()=> handleAddIcon()} icon={faEye}>
 
               </FontAwesomeIcon>

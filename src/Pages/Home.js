@@ -11,9 +11,10 @@ const Home = () => {
 
     return (
     
-        <div>
-        <div className='image-container'>
-             <img className='img-set' src={quiz2} alt=""></img>
+    <div className='mt-3'>
+        <div className='image-container d-flex'>
+        <p className='me-5 mt-1 p-3'><span className='fs-2'>Let's</span> start the programming language quizs and developed your programming knowledge quickly. You can easily justify your theoryticl coding knowledge. <br /> <br /> <br /> “How do I make a JavaScript quiz?” is one of the most common questions asked by people learning web development, and for good reason. Quizzes are fun!</p>
+             <img className='img-set ms-4 rounded-2' src={quiz2} alt=""></img>
          </div>
 
            <div className='display'>

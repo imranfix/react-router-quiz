@@ -16,11 +16,15 @@ const CodeQuizs = () => {
             </div>
             <h5>Quiz Part: {id} </h5>
 
-            {
-                datas.map((data) => <Quizs
+          <div className=''>
+          {
+                datas.map((data, index) => <Quizs
                 data={data}
+                index= {index}
+            
                 ></Quizs>)
             }
+          </div>
 
         </div>
     );

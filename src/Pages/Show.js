@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
+import Quizs from './Quizs';
 import './Show.css';
 
 
@@ -22,7 +23,6 @@ function Show ({data}) {
        </div>
       </Card.Body>
     </Card>
-   
   );
 }
 
