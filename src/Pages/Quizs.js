@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
 
 
 const Quizs = ({data, index}) => {
-  // console.log(index + 1)
+  console.log(index + 1);
     const {question, options, correctAnswer } = data;
      const quizOptions = options;
 
