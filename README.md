@@ -3,7 +3,7 @@ assignment-quiz-crackerz
 
 A brief description of this projects where I include -
 
-Live Website Link: 
+Live Website Link: https://sparkly-nasturtium-b9ef94.netlify.app
 
 1. A dynamic router set up.
 2. call a dynamic api from programming-hero web server.
